@@ -9,4 +9,5 @@
 <h2>Resources </h2>
 <ul> 
  <li>bootswatch</li>
+ <li>gradient-animator</li>
 </ul>
