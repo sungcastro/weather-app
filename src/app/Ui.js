@@ -7,5 +7,11 @@ export class UI {
     this.wind = document.getElementById("weather-wind");
   }
 
-  render(weather) {}
+  render(weather) {
+    this.location.textContent = weather.name + "/" + weather.sys.country;
+    this.description.textContent = weather.weather[0]["description"];
+    this.string.textContent = weather.main.temp + `°C`;
+    this.humidity.textContent = `Humidity ` + weather.main.humidity;
+    this.wind.textContent = `Wind: ` + weather.wind.speed + ` m/s`;
+  }
 }
