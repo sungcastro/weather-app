@@ -12,4 +12,13 @@ async function fetchWeather() {
   ui.render(data);
 }
 
+document.getElementById("w-change-btn").addEventListener("click", e => {
+  e.preventDefault();
+  const city = document.getElementById("city").value;
+  const countryCode = document.getElementById("countryCode").value;
+  weather.changeLocation(city, countryCode);
+  fetchWeather();
+  console.log(city, countryCode);
+});
+
 document.addEventListener("DOMContentLoaded", fetchWeather);
