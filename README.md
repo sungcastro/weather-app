@@ -1,13 +1,25 @@
-# weather-app
+# Weather app
 
-<h2>Init :</h2>
-<ul> 
- <li>npm init --yes</li>
- <li> npm i webpack webpack-cli style-loader css-loader webpack-dev-server html-webpack-plugin </li>
-</ul>
+The weather app was built using ES5 Javascript syntax, weather API and localStorage.
 
-<h2>Resources </h2>
-<ul> 
- <li>bootswatch</li>
- <li>gradient-animator</li>
-</ul>
+### Clone the repo
+
+```bash
+git clone https://github.com/sungcastro/weather-app.git
+```
+
+### Install dependencies
+
+```bash
+yarn install
+```
+
+### Start a local server to preview the site
+
+```bash
+yarn dev
+```
+
+### Deployed 🚀:
+
+https://sung-weather.netlify.app/

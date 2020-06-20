@@ -1,5 +1,3 @@
-// almacenar en local storage
-
 export class Store {
   constructor() {
     this.city;
@@ -21,7 +19,7 @@ export class Store {
 
     return {
       city: this.city,
-      countryCode: this.countryCode
+      countryCode: this.countryCode,
     };
   }
 
